@@ -1,0 +1,171 @@
+* {margin: 0; padding: 0;}
+body {font-size: 10pt; color: #333;}
+ul, ol, li {list-style: none;}
+a {color: #333; text-decoration: none;}
+a:link, a:active, a:visited {color: #333; text-decoration: none;}
+a:hover {color: rgb(255, 0, 200); text-decoration: none;}
+
+header {
+    position: relative;
+    clear: both;
+    width: 1400px;
+    height: 100px;
+    margin: 0 auto;
+}
+/*헤더 상단 1행 전체 시작 ----------*/
+.header_box_all {
+    position: relative;
+    clear: both;
+    width: 1400px;
+    height: 100px;
+}
+    /*헤더 상단 1행(global) - left --------------*/
+    .header_box_all > .header_box_01 {
+        position: relative;
+        float: left;
+        width: 400px;
+        height: 100px;
+    }
+        #header_box_01_up {
+            position: relative;
+            clear: both;
+            width: 400px;
+            height: 50px;
+            line-height: 50px;
+        }
+            #sec_global {
+                position: relative;
+                float: left;
+                width: 200px;
+                height: 50px;
+                line-height: 50px;
+            }
+                select {
+                    /* -webkit-apearance: none; --- 드롭다운 기본 설정 해제할 때 사용 --- */
+                    position: relative;
+                    float: left;
+                    width: 100px;
+                    height: 30px;
+                }
+                option {
+                    width: 50px;
+                    height: 30px;
+                }
+                #ins_all {
+                    position: relative;
+                    float: left;
+                    width: 200px;
+                    height: 50px;
+                }
+                #ins_icon {
+                    position: relative;
+                    float: left;
+                    width: 30px;
+                    height: 30px;
+                }
+        #header_box_01_down {
+            position: relative;
+            clear: both;
+            width: 400px;
+            height: 50px;
+            background-color: #f90;
+        }
+    .header_box_all > .header_box_02 {
+        position: relative;
+        float: left;
+        width: 600px;
+        height: 100px;
+    }
+    .header_box_all > .header_box_03 {
+        position: relative;
+        float: left;
+        width: 400px;
+        height: 100px;
+    }
+        #header_box_03_up {
+            position: relative;
+            clear: both;
+            width: 400px;
+            height: 50px;
+        }
+            #txt_join, #txt_id, #txt_basket, #txt_mypage {
+                position: relative;
+                float: left;
+                width: 100px;
+                height: 50px;
+                line-height: 50px;
+                text-align: center;
+                font-size: 10pt;
+            }
+        #header_box_03_down {
+            position: relative;
+            clear: both;
+            width: 400px;
+            height: 50px;
+        }
+/*헤더 상단 1행 다음 1번째 여백 시작*/
+.gap_1400_10 {
+    position: relative;
+    clear: both;
+    width: 100%;
+    height: 10px;
+    background: #999;
+}
+/*메인메뉴 9개 시작*/
+.main_menu_all {
+    position: relative;
+    clear: both;
+    width: 1400px;
+    height: 30px;
+    margin: 0 auto;
+
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+.main_menu_all #menu_each {
+    width: 140px;
+    height: 30px;
+}
+    #menu_01_over:hover {
+        content: url(../img/main_menu_01_02.jpg);
+    }
+/*헤더상단 1행 다음 2번째 여백시작*/
+.gap_1200_10 {
+    position: relative;
+    clear: both;
+    width: 100%;
+    height: 10px;
+}
+/*메인이미지 시작*/
+.main_img_all {
+    position: relative;
+    clear: both;
+    width: 1400px;
+    height: 600px;
+    margin: 0 auto;
+}
+    .main_img_big {
+        display: block;
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 1400px;
+        height: 600px;
+    }
+    .main_img_small {
+        display: none;
+    }
+/**/
+.gap_1400_80 {
+    display: block;
+    position: relative;
+    clear: both;
+    width: 100%;
+    height: 80px;
+    background: #999;
+    margin: 0 auto;
+}
+.gap_m_340_10 {
+    display: none;
+}
