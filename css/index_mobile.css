@@ -150,4 +150,52 @@
                 0% {left: 50px; top: 50px; opacity: 50%;}
                 100% {left: 0; top: 0; opacity: 100%;}
             }
+            .gap_1400_80 {
+                display: none;
+            }
+            .gap_m_340_10 {
+                position: relative;
+                clear: both;
+                width: 100%;
+                height: 10px;
+                background: #ddd;
+            }
+            /*상단 이미지 4개 제작*/
+            section.sec_01_all {
+                position: relative;
+                clear: both;
+                width: 340px;
+                height: 1360px;
+                overflow: hidden;
+                margin: 0 auto;
+            }
+                .sec_01_all > .sec_01_box_all {
+                    display: flex;
+                    flex-flow: column nowrap;
+                    width: 340px;
+                    height: 1360px;
+                }
+                    .sec_01_box_all > #sec_01_box_each {
+                        display: flex;
+                        flex-flow: row wrap;
+                        width: 340px;
+                        height: 340px;
+                    }
+                    #sec_01_box_img {
+                        width: 340px;
+                        height: 280px;
+                    }
+                    #sec_01_font_01 {
+                        width: 340px;
+                        height: 30px;
+                        line-height: 30px;
+                        font-size: 1.2rem;
+                        font-weight: bold;
+                    }
+                    #sec_01_font_02 {
+                        width: 340px;
+                        height: 30px;
+                        line-height: 30px;
+                        font-size: 1rem;
+                    }
 }
