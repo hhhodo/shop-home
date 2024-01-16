@@ -211,3 +211,137 @@ section.sec_01_all {
             font-weight: 400;
             text-align: center;
         }
+/*tend pick 코너--------------------------------*/
+section.sec_02_all {
+    position: relative;
+    clear: both;
+    width: 1400px;
+    height: 550px;
+    margin: 0 auto;
+}
+    .sec_02_title {
+        width: 1400px;
+        height: 150px;
+    }
+        .sec_02_title_font_01 {
+            width: 1400px;
+            height: 50px;
+            line-height: 50px;
+            font-size: 3.8rem;
+            font-weight: bold;
+            text-align: center;
+            color: #000;
+        }
+        .sec_02_title_font_02 {
+            width: 1400px;
+            height: 50px;
+            line-height: 50px;
+            font-size: 1.2rem;
+            font-weight: bold;
+            text-align: center;
+            color: #666;
+        }
+        #sec_02_see_more {
+            width: 1400px;
+            height: 50px;
+            line-height: 50px;
+            font-size: 1rem;
+            color: #666;
+            text-align: end;
+        }
+    /*박스 시작*/
+    .sec_02_box_all {
+        width: 1400px;
+        height: 400px;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+        position: relative;
+        clear: both;
+    }
+        .sec_02_box_left {
+            width: 50px;
+            height: 80px;
+            background: #666;
+            position: absolute;
+            left: -100px;
+            top: 150px;
+            transform: translateY(-50%);
+        }
+        #sec_02_box_each {
+            width: 264px;
+            height: 400px;
+            display: flex;
+            flex-flow: column wrap;
+        }
+            #sec_02_box_img {
+                width: 264px;
+                height: 264px;
+            }
+            #sec_02_color {
+                width: auto;
+                height: 10px;
+                display: flex;
+                flex-wrap: nowrap;
+                margin-top: 6px;
+            }
+            #sec_02_box_title {
+                width: 264px;
+                height: 30px;
+                line-height: 30px;
+                font-size: 1.2rem;
+                color: #000;
+                margin-top: 10px;
+            }
+            #sec_02_size {
+                width: 264px;
+                height: 15px;
+                line-height: 15px;
+                font-size: 1rem;
+                color: #999;
+            }
+            #sec_02_price {
+                width: 264px;
+                height: 50px;
+                line-height: 50px;
+                font-size: 1.4rem;
+                font-weight: bold;
+                color: #000;
+            }
+                #sec_02_price > span {
+                    font-size: 1.3rem;
+                }
+            #sec_02_review {
+                width: 264px;
+                height: 15px;
+                line-height: 15px;
+                font-size: 1rem;
+                color: #000;
+            }
+        .sec_02_box_right {
+            width: 50px;
+            height: 80px;
+            background: #666;
+            position: absolute;
+            right: -100px;
+            top: 150px;
+            transform: translateY(-50%);
+        }
+
+/*WEEKLY BEST 제목 시작*/
+.gap_100per_80 {
+    width: 100%;
+    height: 80px;
+}
+.title_weekly {
+    position: relative;
+    clear: both;
+    width: 100%;
+    height: 50px;
+    color: #333;
+    font-size: 2rem;
+    text-align: center;
+    line-height: 50px;
+    margin: 50px auto 30px;
+    background: #ddd;
+}
