@@ -258,6 +258,7 @@ section.sec_02_all {
         justify-content: space-between;
         position: relative;
         clear: both;
+        overflow: visible;
     }
         .sec_02_box_left {
             width: 50px;
@@ -266,8 +267,10 @@ section.sec_02_all {
             position: absolute;
             left: -100px;
             top: 150px;
-            transform: translateY(-50%);
         }
+            .sec_02_box_left > img {
+                width: 100%;
+            }
         #sec_02_box_each {
             width: 264px;
             height: 400px;
@@ -325,8 +328,10 @@ section.sec_02_all {
             position: absolute;
             right: -100px;
             top: 150px;
-            transform: translateY(-50%);
         }
+            .sec_02_box_right > img {
+                width: 100%;
+            }
 
 /*WEEKLY BEST 제목 시작*/
 .gap_100per_80 {
@@ -345,3 +350,31 @@ section.sec_02_all {
     margin: 50px auto 30px;
     background: #ddd;
 }
+/*상품 시작-----------------------------------------*/
+section.product_row_all {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    width: 1400px;
+    height: 480px;
+    margin: 0 auto;
+}
+    .product_row_all > .product_col_each {
+        position: relative;
+        float: left;
+        width: 340px;
+        height: 450px;
+        margin-bottom: 50px;
+    }
+    .product_col_each > #p_box_img {
+        position: relative;
+        clear: both;
+        width: 340px;
+        height: 340px;
+    }
+    .product_col_each > #p_box_font_all {
+        position: relative;
+        clear: both;
+        width: 340px;
+        height: 110px;
+    }

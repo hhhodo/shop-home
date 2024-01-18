@@ -198,6 +198,42 @@
                         line-height: 30px;
                         font-size: 1rem;
                     }
+        .gap_m_340_80 {
+            width: 340px;
+            height: 80px;
+        }
+        /*trend pick 코너-----------------------------------*/
+        section.sec_02_all {
+            width: 340px;
+        }
+            .sec_02_title {
+                width: 340px;
+            }
+                .sec_02_title_font_01 {
+                    width: 340px;
+                    font-size: 3rem;
+                }
+                .sec_02_title_font_02 {
+                    width: 340px;
+                }
+            /*박스 시작*/
+        .sec_02_box_all {
+            width: 340px;
+            overflow: hidden;
+        }
+            #sec_02_box_each {
+                margin: 0 38px;
+            }
+            .sec_02_box_left {
+                left: -4px;
+                width: 25px;
+                height: 40px;
+            }
+            .sec_02_box_right {
+                right: -4px;
+                width: 25px;
+                height: 40px;
+            }
         /*WEEKLY BEST 제목--------------*/
         .title_weekly {
             width: 340px;
