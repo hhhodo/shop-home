@@ -62,6 +62,8 @@ header {
                     float: left;
                     width: 30px;
                     height: 30px;
+                    justify-content: center;
+                    padding: 5px;
                 }
         #header_box_01_down {
             position: relative;
@@ -125,10 +127,10 @@ header {
 .main_menu_all #menu_each {
     width: 140px;
     height: 30px;
+    font-size: 1rem;
+    line-height: 30px;
+    text-align: center;
 }
-    #menu_01_over:hover {
-        content: url(../img/main_menu_01_02.jpg);
-    }
 /*헤더상단 1행 다음 2번째 여백시작*/
 .gap_1200_10 {
     position: relative;
@@ -222,7 +224,7 @@ section.sec_02_all {
         height: 150px;
     }
         .sec_02_title_font_01 {
-            width: 100%;
+            width: 1400px;
             height: 50px;
             line-height: 50px;
             font-size: 3.4rem;
@@ -376,6 +378,9 @@ section.product_row_all {
         width: 340px;
         height: 340px;
     }
+        #p_box_img a img {
+            width: 100%;
+        }
     .product_col_each > #p_box_font_all {
         position: relative;
         clear: both;
@@ -405,6 +410,9 @@ section.product_row_all {
                 font-weight: bold;
                 color: #000;
             }
+                #p_box_font_03>small {
+                    color: #666;
+                }
             #p_box_font_04 {
                 width: 340px;
                 height: 15px;
@@ -468,3 +476,9 @@ section.product_row_all {
             border: 2px solid #ddd;
             margin-right: 2px;
         }
+    /*그누보드 설정================================*/
+    .bbs_01 {
+        margin: 0 auto;
+        position: relative;
+        width: 1400px;
+    }
