@@ -224,7 +224,7 @@ section.sec_02_all {
         height: 150px;
     }
         .sec_02_title_font_01 {
-            width: 1400px;
+            width: 100%;
             height: 50px;
             line-height: 50px;
             font-size: 3.4rem;

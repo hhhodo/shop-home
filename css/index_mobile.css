@@ -288,4 +288,18 @@
                 font-size: 0.8rem;
                 color: #333;
             }
+        /*footer---------------------------*/
+        .footer_top {
+            width: 340px;
+            height: auto;
+            flex-flow: row wrap;
+        }
+            .footer_top_01 {
+                width: 340px;
+                flex-flow: row wrap;
+            }
+            .footer_top_02 {
+                width: 340px;
+                flex-flow: row wrap;
+            }
 }
