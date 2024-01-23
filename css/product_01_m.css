@@ -1,0 +1,133 @@
+@media all and (max-width: 800px){
+    .path_all {
+        width: 340px;
+    }
+        #path_01 {
+            width: 340px;
+        }
+    /*상단 상품 이미지 설명 시작*/
+    .top_box_container {
+        width: 340px;
+        height: auto;
+    }
+        /*image*/
+        .top_box_01 {
+            clear: both;
+            width: 340px;
+            height: 300px;
+        }
+        .top_box_02 {
+            display: none;
+        }
+        .top_box_03 {
+            width: 340px;
+            font-size: 10pt;
+            border-top: none;
+        }
+        /*상세설명 시작*/
+            #ment_01 {
+                font-size: 1.6em;
+            }
+            #ment_02 {
+                font-size: 1.2em;
+            }
+            #ment_03 {
+                height: 1.5em;
+                line-height: 1.5em;
+            }
+            #ment_04 {
+                height: 3em;
+                line-height: 3em;
+            }
+                #ment_04_01 {
+                    font-size: 1rem;
+                }
+                #ment_04_02 {
+                    font-size: 1.1rem;
+                }
+            #ment_05 {
+                height: 3em;
+                line-height: 3em;
+            }
+                #ment_05_01 {
+                    font-size: 1rem;
+                }
+                #ment_05_02 {
+                    font-size: 1.1rem;
+                }
+            #ment_06 {
+                font-size: 1rem;
+            }
+            #ment_07 {
+                height: 3em;
+                line-height: 3em;
+            }
+                #ment_07_01 {
+                    font-size: 1rem;
+                }
+                #ment_07_02 {
+                    font-size: 1rem;
+                }
+                    #ment_07_02 > select {
+                        width: 100%;
+                        margin: 0;
+                    }
+            #ment_08 {
+                height: 3em;
+                line-height: 3em;
+            }
+                #ment_08_01 {
+                    font-size: 1rem;
+                }
+                #ment_08_02 {
+                    font-size: 1rem;
+                }
+                    #ment_08_02 > select {
+                        width: 100%;
+                        margin: 0;
+                    }
+            #ment_09 {
+                height: 1.5em;
+                line-height: 1.5em;
+            }
+            #ment_10 {
+                height: 3em;
+                line-height: 3em;
+            }
+                #ment_10_01 {
+                    font-size: 1em;
+                }
+                #ment_10_02 {
+                    font-size: 1.1em;
+                }
+            #ment_11 {
+                height: 3em;
+                line-height: 3em;
+            }
+                #ment_11_01 {
+                    font-size: 1em;
+                }
+                #ment_11_02 {
+                    height: 3em;
+                }
+                    #ment_11_02 img {
+                        width: 1.5em;
+                    }
+            #ment_12 {
+                height: 3em;
+                line-height: 3em;
+            }
+                #ment_12_01 {
+                    font-size: 1em;
+                }
+                #ment_12_02 {
+                    height: 3em;
+                }
+                    #ment_12_02 img {
+                        width: 2.7em;
+                    }
+            /*상품 이미지*/
+            .free_img {
+                width: 340px;
+            }
+}

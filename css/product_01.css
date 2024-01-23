@@ -21,7 +21,7 @@
     position: relative;
     clear: both;
     width: 1400px;
-    height: 700px;
+    height: 730px;
     margin: 0 auto;
 }
     /*이미지 좌측---*/
@@ -34,6 +34,7 @@
         background-size: cover;
     }
     .top_box_02 {
+        display: block;
         position: relative;
         float: left;
         width: 100px;
@@ -43,26 +44,26 @@
         position: relative;
         float: left;
         width: 700px;
-        height: 700px;
-        font-size: 1.5rem;
+        height: 710px;
+        font-size: 10pt;
         border-top: 1px solid #333;
     }
         /*상세설명 시작-----*/
         #ment_01 {
             position: relative;
             clear: both;
-            width: 780px;
-            height: 50px;
-            line-height: 50px;
-            font-size: 2rem;
+            width: 100%;
+            height: 1.8em;
+            line-height: 1.8em;
+            font-size: 3rem;
             font-weight: bold;
         }
         #ment_02 {
             position: relative;
             clear: both;
             width: 100%;
-            height: 20px;
-            line-height: 20px;
+            height: 1em;
+            line-height: 1em;
             font-size: 1.5rem;
             color: #f00;
         }
@@ -70,8 +71,8 @@
             position: relative;
             clear: both;
             width: 100%;
-            height: 40px;
-            line-height: 40px;
+            height: 3em;
+            line-height: 3em;
             background: url(../img/line_01.gif);
             background-repeat: repeat-x;
             background-position: center;
@@ -80,15 +81,15 @@
             position: relative;
             clear: both;
             width: 100%;
-            height: 50px;
-            line-height: 50px;
+            height: 4em;
+            line-height: 4em;
         }
             #ment_04_01 {
                 font-size: 1.2rem;
                 position: relative;
                 float: left;
                 width: 40%;
-                height: 50px;
+                height: 3em;
                 text-align: left;
             }
             #ment_04_02 {
@@ -96,22 +97,22 @@
                 position: relative;
                 float: left;
                 width: 60%;
-                height: 50px;
+                height: 3em;
                 text-align: left;
             }
         #ment_05 {
             position: relative;
             clear: both;
             width: 100%;
-            height: 50px;
-            line-height: 50px;
+            height: 4em;
+            line-height: 4em;
         }
             #ment_05_01 {
                 font-size: 1.2rem;
                 position: relative;
                 float: left;
                 width: 40%;
-                height: 50px;
+                height: 3em;
                 text-align: left;
             }
             #ment_05_02 {
@@ -119,7 +120,7 @@
                 position: relative;
                 float: left;
                 width: 60%;
-                height: 50px;
+                height: 3em;
                 text-align: left;
             }
         #ment_06 {
@@ -127,8 +128,8 @@
             position: relative;
             clear: both;
             width: 100%;
-            height: 48px;
-            line-height: 48px;
+            height: 3em;
+            line-height: 3em;
             border-top: 1px solid #ddd;
             border-bottom: 1px solid #ddd;
             margin-bottom: 10px;
@@ -137,8 +138,8 @@
             position: relative;
             clear: both;
             width: 100%;
-            height: 50px;
-            line-height: 50px;
+            height: 4em;
+            line-height: 4em;
             background: #fff;
         }
             #ment_07_01 {
@@ -146,7 +147,7 @@
                 position: relative;
                 float: left;
                 width: 40%;
-                height: 50px;
+                height: 4em;
                 text-align: left;
             }
             #ment_07_02 {
@@ -154,13 +155,13 @@
                 position: relative;
                 float: left;
                 width: 60%;
-                height: 50px;
-                line-height: 50px;
+                height: 4em;
+                line-height: 4em;
                 text-align: left;
             }
                 #ment_07_02 > select {
                     width: 250px;
-                    height: 40px;
+                    height: 3em;
                     margin: 5px 0;
                     border: 1px solid #ddd;
                 }
@@ -168,8 +169,8 @@
             position: relative;
             clear: both;
             width: 100%;
-            height: 50px;
-            line-height: 50px;
+            height: 4em;
+            line-height: 4em;
             background: #fff;
         }
             #ment_08_01 {
@@ -177,7 +178,7 @@
                 position: relative;
                 float: left;
                 width: 40%;
-                height: 50px;
+                height: 4em;
                 text-align: left;
             }
             #ment_08_02 {
@@ -185,13 +186,13 @@
                 position: relative;
                 float: left;
                 width: 60%;
-                height: 50px;
-                line-height: 50px;
+                height: 4em;
+                line-height: 4em;
                 text-align: left;
             }
                 #ment_08_02 > select {
                     width: 250px;
-                    height: 40px;
+                    height: 3em;
                     margin: 5px 0;
                     border: 1px solid #ddd;
                 }
@@ -199,8 +200,8 @@
             position: relative;
             clear: both;
             width: 100%;
-            height: 40px;
-            line-height: 40px;
+            height: 3em;
+            line-height: 3em;
             background: url(../img/line_01.gif);
             background-repeat: repeat-x;
             background-position: center;
@@ -209,47 +210,50 @@
             position: relative;
             clear: both;
             width: 100%;
-            height: 50px;
-            line-height: 50px;
+            height: 4em;
+            line-height: 4em;
         }
             #ment_10_01 {
-                font-size: 1.2rem;
+                font-size: 1.2em;
                 position: relative;
                 float: left;
                 width: 40%;
-                height: 50px;
+                height: 3em;
                 text-align: left;
             }
             #ment_10_02 {
-                font-size: 1.2rem;
+                font-size: 1.2em;
                 position: relative;
                 float: left;
                 width: 60%;
-                height: 50px;
+                height: 3em;
                 text-align: left;
             }
         #ment_11 {
             position: relative;
             clear: both;
             width: 100%;
-            height: 50px;
-            line-height: 50px;
+            height: 4em;
+            line-height: 4em;
         }
             #ment_11_01 {
-                font-size: 1.2rem;
+                font-size: 1.2em;
                 position: relative;
                 float: left;
                 width: 40%;
-                height: 50px;
+                height: 3em;
                 text-align: left;
             }
             #ment_11_02 {
                 position: relative;
                 float: left;
                 width: 60%;
-                height: 50px;
+                height: 4em;
                 text-align: left;
             }
+                #ment_11_02 img {
+                    width: 2em;
+                }
         #ment_12 {
             position: relative;
             clear: both;
@@ -262,22 +266,25 @@
                 position: relative;
                 float: left;
                 width: 40%;
-                height: 50px;
+                height: 3em;
                 text-align: left;
             }
             #ment_12_02 {
                 position: relative;
                 float: left;
                 width: 60%;
-                height: 50px;
+                height: 4em;
                 text-align: left;
             }
+                #ment_12_02 img {
+                    width: 4em;
+                }
         #ment_13 {
             position: relative;
             clear: both;
             width: 100%;
             padding: 0 5px;
-            height: 100px;
+            height: 8em;
         }
             #ment_13_01 {
                 font-size: 1.2rem;
@@ -327,13 +334,49 @@
                 background: #000;
                 color: #fff;
             }
-        #ment_14 {
-            position: relative;
-            clear: both;
-            width: 100%;
-            height: 10px;
-            border-bottom: 1px solid #333;
-        }
+
+/*카테고리 박스--------------------------------------------*/
+.select_box {
+    width: 1400px;
+    margin: 100px auto;
+    padding: 10px 0;
+    height: 70px;
+    border-top: 1px solid #d9d9d9;
+    border-bottom: 1px solid #d9d9d9;
+    display: flex;
+    flex-wrap: nowrap;
+}
+    .select_box_text01 {
+        width: 25%;
+        height: 50px;
+        line-height: 50px;
+        border-right: 1px solid #d9d9d9;
+        font-size: 1.1rem;
+        text-align: center;
+    }
+    .select_box_text02 {
+        width: 25%;
+        height: 50px;
+        line-height: 50px;
+        border-right: 1px solid #d9d9d9;
+        font-size: 1.1rem;
+        text-align: center;
+    }
+    .select_box_text03 {
+        width: 25%;
+        height: 50px;
+        line-height: 50px;
+        border-right: 1px solid #d9d9d9;
+        font-size: 1.1rem;
+        text-align: center;
+    }
+    .select_box_text04 {
+        width: 25%;
+        height: 50px;
+        line-height: 50px;
+        font-size: 1.1rem;
+        text-align: center;
+    }
     /*상품 자유 입력 공간 */
     .detail_free_img {
         position: relative;
@@ -349,3 +392,177 @@
             height: auto;
             margin: 0 auto;
         }
+        .free_img img {
+            width: 100%;
+        }
+/*하단 파트 코딩 시작*/
+.info_title {
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 80px;
+}
+.info {
+    width: 1200px;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+    flex-flow: row wrap;
+    border: 1px solid #d9d9d9;
+}
+    .info_left {
+        width: 60%;
+        height: auto;
+        padding: 30px;
+        border-right: 1px solid #d9d9d9;
+    }
+        .info_img {
+            width: 512px;
+            height: 512px;
+            margin: 0 auto;
+        }
+            .info_img > img {
+                width: 100%;
+            }
+        .info_content_title {
+            width: 100%;
+            height: 50px;
+            line-height: 50px;
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+        /*테이블 전체 속성 디자인*/
+        table {
+            width: 100%;
+            border: 1px solid #d9d9d9;
+            border-collapse: collapse;
+            table-layout: fixed;
+          }
+          th, td {
+            border: 1px solid #d9d9d9;
+          }
+        /*size info table----------------------------*/
+            .size_info_bold {
+                width: auto;
+                height: 50px;
+                line-height: 50px;
+                font-size: 1rem;
+                background: #f5f5f5;
+                font-weight: 700;
+                text-align: center;
+            }
+            .size_info_regular {
+                text-align: center;
+                font-size: 1.1rem;
+            }
+        .size_info_03 {
+            width: 100%;
+            height: 30px;
+            line-height: 30px;
+            display: flex;
+            justify-content: space-between;
+        }
+        .info_content {
+            width: 100%;
+            line-height: 24px;
+            font-size: 1rem;
+            color: #767676;
+            margin-bottom: 50px;
+        }
+            .info_content strong {
+                color: #000;
+            }
+
+    /*info bottom section--------------------------*/
+    .info_bottom {
+        width: 1000px;
+        margin: 0 auto;
+        height: 100px;
+        line-height: 100px;
+    }
+        .info_bottom button {
+            min-width: 40px;
+            width: auto;
+            padding: 6px 10px;
+            font-weight: bold;
+            background: #fff;
+            border: 1px solid #d9d9d9;
+        }
+    .info_right {
+        width: 40%;
+        height: auto;
+        padding: 30px;
+    }
+        .info_size {
+            width: 100%;
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: space-between;
+        }
+            .info_size_text {
+                width: 50%;
+                height: 50px;
+                line-height: 50px;
+                font-weight: bold;
+            }
+                .info_size_text span {
+                    color: #b6b6b6;
+                }
+                input {
+                    width: 140px;
+                    height: 40px;
+                    color: #767676;
+                    border: 1px solid #d9d9d9;
+                }
+                .info_size_btn {
+                    width: 100%;
+                    height: 40px;
+                    margin: 10px 0;
+                    border: none;
+                    background: #f5f5f5;
+                    color: #767676;
+                    font-weight: bold;
+                }
+        .info_size_compare {
+            width: 100%;
+            height: 200px;
+            padding: 10px 0;
+            border-top: 1px solid #d9d9d9;
+            border-bottom: 1px solid #d9d9d9;
+        }
+        .info_size_compare > .info_content_title {
+            margin-bottom: 10px;
+        }
+            .info_content_btn {
+                width: 100%;
+                height: 80px;
+                display: flex;
+                flex-flow: row nowrap;
+                justify-content: space-between;
+            }
+                .info_compare_text {
+                    width: auto;
+                    padding-left: 10px;
+                    display: flex;
+                    flex-flow: column nowrap;
+                    justify-content: center;
+                }
+                    .info_compare_text01 {
+                        font-size: 1.1rem;
+                    }
+                    .info_compare_text02 {
+                        color: #767676;
+                    }
+                .info_arrow {
+                    height: 24px;
+                    margin: 28px 0;
+                }
+
+                .info_content_review > select {
+                    width: 100%;
+                    height: 3em;
+                    margin: 5px 0;
+                    border: 1px solid #ddd;
+                }
