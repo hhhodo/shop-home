@@ -130,4 +130,36 @@
             .free_img {
                 width: 340px;
             }
+    /*category---------------------------*/
+    .select_box {
+        width: 340px;
+        font-size: 12px;
+    }
+    .info {
+        width: 340px;
+        flex-flow: column wrap;
+    }
+    .info_left {
+        width: 100%;
+    }
+        .info_img {
+            width: 100%;
+            height: auto;
+        }
+        table {
+            font-size: 10px;
+        }
+    .info_right {
+        width: 100%;
+    }
+        .info_compare_text {
+            font-size: 10px;
+        }
+    .info_bottom {
+        width: 340px;
+    }
+    .info_content_btn {
+        width: 340px;
+        margin: 0 auto;
+    }
 }
